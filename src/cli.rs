@@ -1,0 +1,18 @@
+use std::env::args;
+
+pub fn run() {
+    let args: Vec<String> = args().collect();
+    let command = args[1].clone();
+    let name = "Evan";
+    let status = "100%";
+
+    // println!("Command: {}", command);
+
+    if command == "hello" {
+        println!("Hi {}, how are you?", name);
+    } else if command == "status" {
+        println!("Status is: {}", status);
+    } else {
+        println!("Not a valid command!");
+    }
+}

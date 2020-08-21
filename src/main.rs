@@ -8,8 +8,11 @@
 // mod conditionals;
 // mod loops;
 // mod functions;
-mod pointers;
+// mod pointers;
+// mod structs;
+// mod enums;
+mod cli;
 
 fn main() {
-    pointers::run()
+    cli::run()
 }
