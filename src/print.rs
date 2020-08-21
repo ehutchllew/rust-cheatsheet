@@ -24,6 +24,9 @@ pub fn run() {
     // Debug Traits
     println!("{:?}", (12, true, "something"));
 
+    // Pretty Debug
+    println!("{:#?}", (12, true, "somethingElse"));
+
     // Basic Math
     println!("{} + {} = {}", 10, 11, 10 + 11);
 }

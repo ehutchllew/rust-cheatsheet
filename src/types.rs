@@ -8,6 +8,7 @@
  * Characters: (char)
  * Tuples
  * Arrays -- fixed length
+ * Vectors -- Arrays but variable length
 */
 
 // Rust is a statically typed language, it must know types of all vars at compile.
