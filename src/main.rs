@@ -7,8 +7,9 @@
 // mod vectors;
 // mod conditionals;
 // mod loops;
-mod functions;
+// mod functions;
+mod pointers;
 
 fn main() {
-    functions::run()
+    pointers::run()
 }

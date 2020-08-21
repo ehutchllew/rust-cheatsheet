@@ -8,6 +8,7 @@
  * Characters: (char)
  * Tuples
  * Arrays -- fixed length
+* Non-Primitive
  * Vectors -- Arrays but variable length
 */
 
