@@ -1,6 +1,6 @@
 /*
- * Primitive str = Immutable fixed-length string somewhere in memory
- * String = Growable, heap-allocated data structure -- use to modify str data
+ * Primitive str = Immutable fixed-length string somewhere in memory (&str -- Is Slice type)
+ * String = Growable, heap-allocated data structure -- use to modify str data (String -- Is actual string, not slice like 'str')
 */
 pub fn run() {
     // Primitive

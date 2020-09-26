@@ -6,14 +6,14 @@ pub fn run() {
     let mut count: u8 = 0;
 
     // Infinite Loop
-    // loop {
-    //     count += 1;
-    //     println!("Number: {}", count);
+    loop {
+        count += 1;
+        println!("Number: {}", count);
 
-    //     if count == 20 {
-    //         break;
-    //     }
-    // }
+        if count == 20 {
+            break;
+        }
+    }
 
     // While Loop
     // while count <= 100 {
